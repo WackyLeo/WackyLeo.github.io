@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x708f" id="Blue Egg Summoner">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3ff</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>150</Size>
+      <ShadowSize>0</ShadowSize>
+      <StasisImmune/>
+      <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x709a" id="Red Egg Summoner">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x400</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>150</Size>
+      <ShadowSize>0</ShadowSize>
+      <StasisImmune/>
+      <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x709b" id="Silver Egg Summoner">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x401</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>150</Size>
+      <ShadowSize>0</ShadowSize>
+      <StasisImmune/>
+      <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x709c" id="Yellow Egg Summoner">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x402</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>150</Size>
+      <ShadowSize>0</ShadowSize>
+      <StasisImmune/>
+      <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x701a" id="Crawling Depths Egg Sac">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>28</Index>
+      </AnimatedTexture>
+      <HitSound>monster/eggs_hit</HitSound>
+      <DeathSound>monster/eggs_death</DeathSound>
+      <Size>75</Size>
+      <MaxHitPoints>400</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Level>57</Level>
+   </Object>
+   <Object type="0x701b" id="Crawling Spider Hatchling">
+      <Class>Character</Class>
+      <Group>YellowSpawn</Group>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>29</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>75</Size>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Defense>23</Defense>
+      <XpMax>10</XpMax>
+      <Enemy/>
+      <XpMult>0.2</XpMult>
+      <Level>57</Level>
+      <Projectile id="0">
+         <ObjectId>Blue Magic</ObjectId>
+         <Speed>50</Speed>
+         <Damage>360</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="1">Weak</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>White Magic</ObjectId>
+         <Speed>50</Speed>
+         <Damage>360</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="3" quietMult="40">Quiet</ConditionEffect>
+         <Penetration>10</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x701c" id="Crawling Grey Spider">
+      <Class>Character</Class>
+      <Group>YellowSpawn</Group>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>30</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>115</Size>
+      <MaxHitPoints>2700</MaxHitPoints>
+      <XpMax>80</XpMax>
+      <XpMult>0.2286</XpMult>
+      <Defense>47</Defense>
+      <Enemy/>
+      <Level>57</Level>
+      <Projectile>
+         <ObjectId>Armor Sword Attack</ObjectId>
+         <Speed>70</Speed>
+         <Damage>660</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="3" armorBreakMult="25">Armor Broken</ConditionEffect>
+         <Penetration>10</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x701d" id="Crawling Red Spotted Spider">
+      <Class>Character</Class>
+      <Group>YellowSpawn</Group>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <XpMax>80</XpMax>
+      <Defense>39</Defense>
+      <XpMult>0.4</XpMult>
+      <Enemy/>
+      <Level>57</Level>
+      <Projectile>
+         <ObjectId>Red Star</ObjectId>
+         <Speed>80</Speed>
+         <Damage>600</Damage>
+         <LifetimeMS>1250</LifetimeMS>
+         <ConditionEffect duration="2" effectMult="270">Bleeding</ConditionEffect>
+         <Penetration>10</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x701e" id="Crawling Grey Spotted Spider">
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>32</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>90</Size>
+      <MaxHitPoints>2300</MaxHitPoints>
+      <XpMax>80</XpMax>
+      <Defense>41</Defense>
+      <XpMult>0.2286</XpMult>
+      <Enemy/>
+      <Level>57</Level>
+      <Projectile>
+         <ObjectId>Purple Magic</ObjectId>
+         <Speed>80</Speed>
+         <Damage>720</Damage>
+         <LifetimeMS>1250</LifetimeMS>
+         <Penetration>10</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x701f" id="Crawling Green Spider">
+      <Class>Character</Class>
+      <Group>YellowSpawn</Group>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>33</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>70</Size>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <XpMax>80</XpMax>
+      <Defense>28</Defense>
+      <XpMult>0.5334</XpMult>
+      <Enemy/>
+      <Level>57</Level>
+      <Projectile>
+         <ObjectId>Green Magic</ObjectId>
+         <Speed>80</Speed>
+         <Damage>570</Damage>
+         <LifetimeMS>1250</LifetimeMS>
+         <ConditionEffect duration="2" effectMult="200">Bleeding</ConditionEffect>
+         <Penetration>10</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x702a" id="Son of Arachna">
+      <CompleteDungeon lock="CDepths" range="25">CDepths</CompleteDungeon>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>63</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spider_queen_hit</HitSound>
+      <DeathSound>monster/spider_queen_death</DeathSound>
+      <Size>200</Size>
+      <MaxHitPoints>84000</MaxHitPoints>
+      <XpMax>1000</XpMax>
+      <Defense>80</Defense>
+      <XpMult>0.8334</XpMult>
+      <Enemy/>
+      <God/>
+      <StasisImmune/>
+      <Quest/>
+      <Level>57</Level>
+      <NoArticle/>
+      <Projectile id="0">
+         <ObjectId>Green Magic</ObjectId>
+         <Speed>56</Speed>
+         <Damage>1140</Damage>
+         <LifetimeMS>2600</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Green Blob</ObjectId>
+         <Speed>100</Speed>
+         <Damage>1560</Damage>
+         <Size>185</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <MultiHit/>
+         <ConditionEffect duration="5">Weak</ConditionEffect>
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Armor Sword Attack</ObjectId>
+         <Speed>40</Speed>
+         <Damage>1090</Damage>
+         <Size>130</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <MultiHit/>
+         <ConditionEffect duration="5" armorBreakMult="35">Armor Broken</ConditionEffect>
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Red Star</ObjectId>
+         <Speed>100</Speed>
+         <Damage>940</Damage>
+         <Size>140</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <MultiHit/>
+         <ConditionEffect duration="5" effectMult="300">Bleeding</ConditionEffect>
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Dark Blue Magic</ObjectId>
+         <Speed>100</Speed>
+         <Damage>1000</Damage>
+         <Size>140</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <MultiHit/>
+         <ConditionEffect duration="5" quietMult="20">Quiet</ConditionEffect>
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Yellow Energy Shot</ObjectId>
+         <Speed>40</Speed>
+         <Damage>1110</Damage>
+         <Size>170</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <MultiHit/>
+         <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x707d" id="Silver Son of Arachna Giant Egg Sac">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3f6</Index>
+      </Texture>
+      <HitSound>monster/eggs_hit</HitSound>
+      <DeathSound>monster/eggs_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>40000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <StunImmune/>
+      <Level>57</Level>
+   </Object>
+   <Object type="0x707e" id="Red Son of Arachna Giant Egg Sac">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3f7</Index>
+      </Texture>
+      <HitSound>monster/eggs_hit</HitSound>
+      <DeathSound>monster/eggs_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>40000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <StunImmune/>
+      <Level>57</Level>
+   </Object>
+   <Object type="0x707f" id="Blue Son of Arachna Giant Egg Sac">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3f8</Index>
+      </Texture>
+      <HitSound>monster/eggs_hit</HitSound>
+      <DeathSound>monster/eggs_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>40000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <StunImmune/>
+      <Level>57</Level>
+   </Object>
+   <Object type="0x708a" id="Yellow Son of Arachna Giant Egg Sac">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3f9</Index>
+      </Texture>
+      <HitSound>monster/eggs_hit</HitSound>
+      <DeathSound>monster/eggs_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>40000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <StunImmune/>
+      <Level>57</Level>
+   </Object>
+   <Object type="0x702b" id="Epic Arachna Web Spoke 1">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x702c" id="Epic Arachna Web Spoke 2">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x702d" id="Epic Arachna Web Spoke 3">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x702e" id="Epic Arachna Web Spoke 4">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x702f" id="Epic Arachna Web Spoke 5">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x703a" id="Epic Arachna Web Spoke 6">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x703b" id="Epic Arachna Web Spoke 7">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>880</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x703c" id="Epic Arachna Web Spoke 8">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>880</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x703d" id="Epic Arachna Web Spoke 9">
+      <DisplayId>Arachna Element</DisplayId>
+      <Group>AttackType</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>1000</Defense>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x49</Index>
+      </Texture>
+      <Size>250</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <Projectile id="0">
+         <ObjectId>Web Thread</ObjectId>
+         <Damage>0</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>880</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Web Thread 2</ObjectId>
+         <Damage>660</Damage>
+         <Size>170</Size>
+         <Speed>70</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x1583" id="CDepths Web Spawn">
+      <Class>Character</Class>
+      <Enemy/>
+      <MaxHitPoints>10000000</MaxHitPoints>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+   </Object>
+   <Object type="0x1584" id="Son of Arachna Controller">
+      <Class>Character</Class>
+      <Enemy/>
+      <MaxHitPoints>10000000</MaxHitPoints>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+   </Object>
+</Objects>

@@ -1,0 +1,13 @@
+<application xmlns="http://ns.adobe.com/air/application/15.0">
+  <id>WebMain</id>
+  <filename>WebMain</filename>
+  <name>WebMain</name>
+  <versionNumber>1.0.0</versionNumber>
+  <initialWindow>
+    <content>NahidaStare.swf</content>
+    <title>WebMain</title>
+    <visible>true</visible>
+    <renderMode>direct</renderMode>
+    <depthAndStencil>true</depthAndStencil>
+  </initialWindow>
+</application>
