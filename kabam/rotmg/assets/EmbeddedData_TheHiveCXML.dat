@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x124" id="TH Honey Spawn">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <StasisImmune/>
+      <Enemy/>
+   </Object>
+   <Object type="0x125" id="TH Mini Hive">
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>128</Index>
+      </AnimatedTexture>
+      <Size>85</Size>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/wooden_walls_death</DeathSound>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Defense>5</Defense>
+      <XpMult>1</XpMult>
+      <Level>9</Level>
+   </Object>
+   <Object type="0x126" id="TH Small Bees">
+      <DisplayId>Small Bee</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>138</Index>
+      </AnimatedTexture>
+      <HitSound>monster/spiders_hit</HitSound>
+      <DeathSound>monster/spiders_death</DeathSound>
+      <Size>80</Size>
+      <ShadowSize>80</ShadowSize>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Defense>5</Defense>
+      <XpMult>0</XpMult>
+      <Level>9</Level>
+      <Flying/>
+      <Z>0.24</Z>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>80</Damage>
+         <Speed>0</Speed>
+         <Size>80</Size>
+         <LifetimeMS>100</LifetimeMS>
+         <Penetration>10</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x127" id="TH Fat Bees">
+      <DisplayId>Fat Bee</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>137</Index>
+      </AnimatedTexture>
+      <HitSound>monster/scorpions_hit</HitSound>
+      <DeathSound>monster/scorpions_death</DeathSound>
+      <Size>80</Size>
+      <ShadowSize>80</ShadowSize>
+      <MaxHitPoints>225</MaxHitPoints>
+      <Defense>5</Defense>
+      <Flying/>
+      <Z>0.24</Z>
+      <XpMult>1</XpMult>
+      <Level>9</Level>
+      <Projectile id="0">
+         <ObjectId>TH Stinger Small</ObjectId>
+         <Damage>120</Damage>
+         <Speed>60</Speed>
+         <Size>100</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <Penetration>25</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x156B" id="TH Fat Bees2">
+      <DisplayId>Fat Bee</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>137</Index>
+      </AnimatedTexture>
+      <HitSound>monster/scorpions_hit</HitSound>
+      <DeathSound>monster/scorpions_death</DeathSound>
+      <Size>80</Size>
+      <ShadowSize>80</ShadowSize>
+      <MaxHitPoints>225</MaxHitPoints>
+      <Defense>5</Defense>
+      <Flying/>
+      <Z>0.24</Z>
+      <XpMult>1</XpMult>
+      <Level>9</Level>
+      <Projectile id="0">
+         <ObjectId>TH Stinger Small</ObjectId>
+         <Damage>120</Damage>
+         <Speed>60</Speed>
+         <Size>100</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <Penetration>25</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x128" id="TH Red Fat Bees">
+      <DisplayId>Fat Angry Bee</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>139</Index>
+      </AnimatedTexture>
+      <HitSound>monster/pythons_hit</HitSound>
+      <DeathSound>monster/pythons_death</DeathSound>
+      <Size>80</Size>
+      <ShadowSize>80</ShadowSize>
+      <MaxHitPoints>225</MaxHitPoints>
+      <Defense>3</Defense>
+      <Flying/>
+      <Z>0.24</Z>
+      <XpMult>1</XpMult>
+      <Level>9</Level>
+      <Projectile id="0">
+         <ObjectId>Red Star</ObjectId>
+         <Damage>120</Damage>
+         <Speed>60</Speed>
+         <Size>100</Size>
+         <LifetimeMS>900</LifetimeMS>
+         <ConditionEffect duration="2" effectMult="10">Bleeding</ConditionEffect>
+         <Penetration>25</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x129" id="TH Queen Bee">
+      <CompleteDungeon lock="The Hive" range="25">The Hive</CompleteDungeon>
+      <DisplayId>Queen Bee</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>127</Index>
+      </AnimatedTexture>
+      <HitSound>monster/snake_queen_hit</HitSound>
+      <DeathSound>monster/snake_queen_death</DeathSound>
+      <MaxHitPoints>6000</MaxHitPoints>
+      <XpMult>50</XpMult>
+      <Level>9</Level>
+      <Defense>10</Defense>
+      <Size>120</Size>
+      <StasisImmune/>
+      <Flying/>
+      <Z>0.24</Z>
+      <Quest/>
+      <Projectile id="0">
+         <ObjectId>TH Stinger Large</ObjectId>
+         <Damage>210</Damage>
+         <Speed>45</Speed>
+         <Size>100</Size>
+         <LifetimeMS>6000</LifetimeMS>
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>TH Honey Daze</ObjectId>
+         <Damage>210</Damage>
+         <Speed>55</Speed>
+         <LifetimeMS>5000</LifetimeMS>
+         <Size>100</Size>
+         <Amplitude>5</Amplitude>
+         <Frequency>0.1</Frequency>
+         <ConditionEffect duration="1.5">Dazed</ConditionEffect>
+         <DynamicAngle />
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>TH Bee Sting</ObjectId>
+         <Damage>165</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>7000</LifetimeMS>
+         <Size>100</Size>
+         <Amplitude>5</Amplitude>
+         <Frequency>1</Frequency>
+         <ConditionEffect duration="3" effMult="140">Bleeding</ConditionEffect>
+         <DynamicAngle />
+         <Penetration>20</Penetration>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>TH Bee Sting</ObjectId>
+         <Damage>165</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>7000</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="3" effMult="140">Bleeding</ConditionEffect>
+         <DynamicAngle />
+         <Penetration>20</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x12a" id="TH Maggot Egg">
+      <Class>Character</Class>
+      <Enemy/>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x590</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x58F</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x591</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/eggs_hit</HitSound>
+      <DeathSound>monster/eggs_death</DeathSound>
+      <MaxHitPoints>20</MaxHitPoints>
+      <Defense>5</Defense>
+      <XpMult>0</XpMult>
+   </Object>
+   <Object type="0x12d" id="TH Maggots">
+      <DisplayId>Larve</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>140</Index>
+      </AnimatedTexture>
+      <HitSound>monster/flayers_hit</HitSound>
+      <DeathSound>monster/flayers_death</DeathSound>
+      <Size>80</Size>
+      <ShadowSize>80</ShadowSize>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Defense>0</Defense>
+      <XpMult>0.5</XpMult>
+      <Level>9</Level>
+      <Projectile id="0">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>70</Damage>
+         <Speed>30</Speed>
+         <Size>40</Size>
+         <LifetimeMS>600</LifetimeMS>
+         <ConditionEffect duration="0.5">Slowed</ConditionEffect>
+         <Penetration>5</Penetration>
+      </Projectile>
+   </Object>
+   <Object type="0x14A5" id="TH Queen Bee Anchor1">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0x14A8" id="TH Queen Bee Anchor2">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0x14A9" id="TH Queen Bee Anchor3">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0x14AB" id="TH Queen Bee Anchor4">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0x12e" id="TH Queen Bee Anchor5">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0x14AC" id="TH Queen Bee Anchor6">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0xD44" id="TH Queen Bee Anchor7">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0xD45" id="TH Queen Bee Anchor8">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0x14B0" id="TH Queen Bee Anchor9">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Invincible />
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0x133" id="TH Chunk">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x592</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x593</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x594</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x595</Index>
+         </Texture>
+      </RandomTexture>
+   </Object>
+</Objects>
