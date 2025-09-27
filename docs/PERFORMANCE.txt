@@ -1,6 +1,0 @@
-# References:
-  [1]. "Optimizing Performance for the ADOBE FLASH PLATFORM", available at https://help.adobe.com/en_US/as3/mobile/flashplatform_optimizing_content.pdf
-  [2]. "What are the major performance hitters in AS3 aside from rendering vectors?", available at https://stackoverflow.com/a/8380883
-  [3]. "ActionScript 3.0 and AVM2: Performance Tuning", available at http://labs.jasonsturges.com/stack-overflow/as3-performance/AS3TuningInsideAVM2JIT.pdf
-  [4]. "ActionScript 3.0 Optimization: A Practical Example", available at https://code.tutsplus.com/tutorials/actionscript-30-optimization-a-practical-example--active-11295
-  [5]. "BlitMask", available at https://greensock.com/blitmask
